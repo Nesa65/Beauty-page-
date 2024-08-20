@@ -3,10 +3,9 @@
     text-align: center;
     color: white;
     padding:50px;
+    font-family: sans-serif;
 }
-.box1 span{
-      
-}
+
 .box1 p{
     width:500px;
     margin: auto;
@@ -16,58 +15,56 @@
     text-align: center;
     padding:30px;
 }
+.box2 h2{
+    font-family: sans-serif;
+    font-size:25px;
+}
 .box2 p{
     width:600px;
     margin:auto;
 }
-/* .box3{
+.part1{
+    background-color:rgb(238, 244, 247);
+    display: inline-block;
+    text-align: center;
     padding:30px;
-    margin:20px ;
-} */
-.part3{
-    width:200px;
-    height:250px;
-    display:inline-block;
-    padding:20px;
-    margin:0 30px;
-    text-align: center;
-    background-color:rgb(235, 243, 242);
+    margin:30px;
 
 }
-.part3:hover{
-    cursor: pointer;
+.part1 h3{
+    font-family: sans-serif;
+    color:black;
+}
+.part1 p{
+    width:250px;
+    color:black;
+}
+.part1 span{
+    color:red;
+    font-size: 25px;
+    font-weight: bold;
+}
+.part1 span:hover{
+    margin-right:10px;
+}
 
+.arrow{
+    width:15px;
+    height:15px;
 }
-/* .code{
-    width:250px;
-    display:inline-block;
-    margin-right:30px;
-    text-align: center;
-}
-.mobile{
-    width:250px;
-    display:inline-block;
-    text-align: center;
-} */
-.box3 img{
+._pic{
     width:40px;
     height:40px;
 }
-.box3 a{
-    color:red;
-    text-decoration:none;
-    font-size: 20px;
-}
-img.arrow{
-    display:inline-block;
-    width:15px;
-    height:15px;
-    margin-top:5px
-}
+
 .box4{
     text-align: center;
     padding:20px;
-    margin:30px;
+    margin:10px;
+}
+.box4 h2{
+    font-family: sans-serif;
+    font-size: 25px;
 }
 .box4 p{
     width:500px;
@@ -92,5 +89,6 @@ img.arrow{
     height:70px;
     padding-top:20px;
     font-size: 20px;
+    margin-top:40px;
 
 }
